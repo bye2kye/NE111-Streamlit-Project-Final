@@ -45,7 +45,7 @@ def histo(data, title, xaxis, yaxis):        # histogram function
         data,
         bins="fd",
         color="white",
-        edgecolor="lightgrey"
+        edgecolor="lightgrey",
         density = True
     )
     ax.set_title(title,
