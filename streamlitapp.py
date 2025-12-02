@@ -46,6 +46,7 @@ def histo(data, title, xaxis, yaxis):        # histogram function
         bins="fd",
         color="white",
         edgecolor="lightgrey"
+        density = True
     )
     ax.set_title(title,
                  family="DejaVu Sans",
